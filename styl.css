@@ -1,0 +1,129 @@
+html{
+    margin:0
+}
+body{
+    
+    margin: 0%;
+    padding: 0%;
+    background: url("imagenfondo1.jpg");
+    background-size: 100%;
+}
+#main-container{
+    padding-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+.btn {
+    border-radius: 3px;
+    padding: 20px 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    
+}
+
+.btn-green {
+    color: white;
+    background-color: green;
+}
+
+.btn:hover {
+    background-color: #37B839;
+}
+.btn-green:active{
+    background-color: #29962A;
+}
+
+.color{
+    background-color: blue;
+}
+.color2{
+    background-color: lightblue;
+}
+
+.contenedor1{
+   width: auto;
+   height: auto;
+    display :flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content: space-around;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor2{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around
+    
+    
+    
+}
+.contenedor3{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.contenedor4{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: end;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.ubi1{
+    border: 2px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.ubi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.icono{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.imagen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black;
+}

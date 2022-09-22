@@ -1,0 +1,24 @@
+@media  (min-width: 320px ) and (max-width: 580px){
+        #main-container{
+            flex-direction: column;
+            align-items: flex-start;
+            align-content: flex-start;
+            justify-content: space-around;
+            
+        }
+        .contendor3 {
+            align-items: flex-start;
+            align-content: flex-start;
+            
+        }
+        .contendor1{
+            align-items: center;
+        }
+        img{
+            height: auto;
+            width: auto;
+            max-width: 250pxpx;
+            max-height: 300px;
+        }
+        
+    }
