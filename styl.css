@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
 html{
     margin:0
 }
@@ -5,7 +10,7 @@ body{
     
     margin: 0%;
     padding: 0%;
-    background: url("imagenfondo1.jpg");
+    background: url("imagefo4.jpg");
     background-size: 100%;
 }
 #main-container{
@@ -17,6 +22,18 @@ body{
     align-items: center;
     align-content: center;
 
+}
+header{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: antiquewhite;
+    font: bold;
+    
 }
 .btn {
     border-radius: 3px;
@@ -89,6 +106,7 @@ body{
     align-items: center;
     align-content: center;
     justify-content: center;
+    
 }
 .ubi1{
     border: 2px;
@@ -99,11 +117,13 @@ body{
     align-items: center;
     align-content: center;
     
+    
 }
 .ubi{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: antiquewhite;
     
 }
 
@@ -126,4 +146,13 @@ body{
     justify-content: center;
     align-items: center;
     border: 1px black;
+   width: 90vw;
+   height: 100vh;
+}
+.img{
+    height: auto;
+    width: auto;
+    
+    max-width: 95%;
+    max-height: 100%;
 }
